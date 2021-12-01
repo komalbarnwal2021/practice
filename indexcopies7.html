@@ -32,14 +32,30 @@
 				color:red;
 				background:yellow;		
 				text-decoration:none;
-				padding:10px 50px;
+				padding:10px 25px;
 				display:block;
 				border-right:solid 1px #000;
 				}
 			#menuarea ul li a:hover{
 				color:yellow;
 				background:red;
+					}
+			#menuarea ul li ul{
+				display:none;
+					}
+			#menuarea ul li:hover ul{
+				display:block;
+				position:absolute;
+				z-index:100;
 					}	
+			#menuarea ul li:hover ul li{
+				float:none;
+						}
+			#menuarea ul li:hover ul li a:link,
+			#menuarea ul li:hover ul li a:visited{
+				border-right:none;
+				border-bottom:solid 2px black;
+						}	
 		#slidearea{
 			width:1200px;
 			height:300px;
@@ -180,6 +196,14 @@
 					<li><a href="#">about</a></li>
 					<li><a href="#">gallery</a></li>
 					<li><a href="#">contact</a></li>
+					<li><a href="#">productss</a>
+						<ul>
+							<li><a href="#">product1</a></li>
+							<li><a href="#">product2</a></li>
+							<li><a href="#">product3</a></li>
+							<li><a href="#">product4</a></li>
+						</ul>
+					</li>
 				</ul>
 		</div>
 		<div id="slidearea">

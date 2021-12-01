@@ -35,8 +35,8 @@
 			    #s1{
 				width:1000px;
 				height:200px;
-				background:white;
-				margin:50px 100px;
+				background:brown;
+				margin:-80px 100px;
 			       }
 		#darea{
 			width:1200px;
@@ -73,12 +73,37 @@
 			background:pink;
 			float:left;
 			}
+		#f1 ul{
+			/*list-style-type:upper-alpha;
+			list-style-image:url('arr.png');
+			list-style-position:inside;*/
+			list-style:square url('arr.png') inside;
+			padding:0;
+			margin:0;
+			}
 		     #f2{
 			width:300px;
 			height:410px;
-			background:blue;
+			background:white;
 			float:left;
+			padding:0;
+			margin:0;
 			}
+		#f2 ul{
+			list-style: url('arr.png') outside;
+			}
+		#f2  a:link{
+			color:red;
+				}
+		#f2  a:visited{
+			color:green;
+				}
+		#f2  a:hover{
+			color:black;
+				}
+		#f2  a:active{
+			color:yellow;
+				}
 	             #f3{
 			width:300px;
 			height:410px;
@@ -90,7 +115,8 @@
 			height:410px;
 			background:purple;
 			float:left;
-			}	
+			}
+		
 		</style>
 	</head>
 	<body>
@@ -115,8 +141,21 @@
 		</div>
 		<div id="footerarea">
 			<div id="f1">
+		<ul>
+			<li>home</li>
+			<li>about</li>
+			<li>gallery</li>
+			<li>contact</li>
+		</ul>
 			</div>
 			<div id="f2">
+		
+		<ul>
+			<li><a href="#">home</a></li>
+			<li><a href="#">about</a></li>
+			<li><a href="#">gallery</a></li>
+			<li><a href="#">contact</a></li>
+		</ul>
 			</div>
 			<div id="f3">
 			</div>

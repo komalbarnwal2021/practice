@@ -13,88 +13,28 @@
 	        #toparea{
 			width:1200px;
 			height:150px;
-			background:black;
+			background:yellow;
 			}
 		 #menuarea{
 			width:1200px;
 			height:40px;
 			background:pink;
 			}
-			#menuarea ul li{
-				float:left;
-				}
-			#menuarea ul{
-				margin:0;
-				padding:0;
-				list-style:none;
-				}
-			#menuarea ul li a:link,#menuarea ul li a:visited{
-				color:red;
-				background:yellow;		
-				text-decoration:none;
-				padding:10px 50px;
-				display:block;
-				border-right:solid 1px #000;
-				}
-			#menuarea ul li a:hover{
-				color:yellow;
-				background:red;
-					}
-			#menuarea ul li ul{
-				display:none;
-					}
-			#menuarea ul li:hover ul{
-				display:block;
-				position:absolute;
-				z-index:100;
-					}
-				#menuarea ul li:hover ul li{
-					float:none;
-
-						}
-			#menuarea ul li:hover ul li a:link,
-			#menuarea ul li:hover ul li a:visited{
-				border-right:none;
-				border-right:solid 2px black;
-						}		
-			
 		#slidearea{
 			width:1200px;
 			height:300px;
-			background:white;
-			float:left;
+			background:orange;
 			}
-			    #s1{
-				width:1000px;
-				height:200px;
-				background:black;
-				margin:50px 100px;
-			       }
 		#boxarea{
 			width:1200px;
 			height:300px;
 			background:black;
-		        float:left;
 			}
 			    #b1{
 				width:600px;
 				height:300px;
 				background:purple;
 				}
-					#b1 a:link,#b1 a:visited{
-						color:red;
-						text-decoration:none;
-						background:yellow;
-						padding:10px 25px;		
-						border-radius:5px;
-					}
-						#b1 a:hover{
-							background:red;	
-							color:yellow;
-						}
-						
-						
-						
 			    #b2{
 				width:600px;
 				height:300px;
@@ -126,154 +66,35 @@
 		#footerarea{
 			width:1200px;
 			height:410px;
-			background:cyan;
-			float:left;
-			}
-			
-		     #f1{
-			width:300px;
-			height:410px;
-			background:pink;
-			float:left;
-			}
-				#f1 ul{
-					list-style-type:decimal-leading-zero;
-					list-style-image:url('arr.png');
-					margin:0;
-					/*padding:0;*/
-					list-style-position:inside;
-					}
-		     #f2{
-			width:300px;
-			height:410px;
-			background:blue;
-			float:left;
-			}
-				 #f2 ul{
-					list-style-type:square;
-					margin:0;
-					padding:0;
-					list-style-position:outside;
-					
-					}
-	             #f3{
-			width:300px;
-			height:410px;
-			background:purple;
-			float:left;
-			}
-				#f3 a:link{
-						color:red;
-					}
-				#f3 a:visited{
-						color:green;
-					}
-				#f3 a:hover{
-						color:black;
-					}
-				#f3 a:active{
-						color:yellow;
-					}
-		     #f4{
-			width:300px;
-			height:410px;
-			background:white;
-			float:left;
-			}
-			#f4 ul{
-				margin:0;
-				padding:0;
-				list-style:none;		
-				}
-			#f4 ul li a:link,#f4 ul li a:visited{
-				color:red;
-				background:yellow;		
-				text-decoration:none;
-				padding:20px 25px;
-				display:block;
-				border-bottom:solid 1px #000;
-				}
-			#f4 ul li a:hover{
-				color:pink;
-				background:red;
-				}
+			background:skyblue;
+			}	
 		</style>
 	</head>
 	<body>
-	</div>
+		<div id="mainarea">
 		<div id="toparea">
 		</div>
 		<div id="menuarea">
-			<ul>
-					<li> <a href="#">home</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">gallery</a></li>
-					<li><a href="#">contact</a></li>
-					<li><a href="#">productss</a>
-				
-				
-						<ul>	<li><a href="#">product1</a></li>
-							<li><a href="#">product2</a></li>
-							<li><a href="#">product3</a></li>
-							<li><a href="#">product4</a></li>
-						</ul>
-					</li>
-			</ul>
 		</div>
 		<div id="slidearea">
-			<div id="s1">
-			</div>
 		</div>
 		<div id="boxarea">
-			<div id="b1">
-				<a href="http://www.google.com">GOOGLE</a>
-			</div>
-			<div id="b2">
-			</div>
+		<div id="b1">
+		</div>
+		<div id="b2">
+		</div>
 		</div>
 		<div id="darea">
-			<div id="d1">
-			</div>
-			<div id="d2">
-			</div>
-			<div id="d3">
-			</div>
+		<div id="d1">
+		</div>
+		<div id="d2">
+		</div>
+		<div id="d3">
+		</div>
 		</div>
 		<div id="footerarea">
-			<div id="f1">
-				<ul>
-					<li>home</li>
-					<li>about</li>
-					<li>gallery</li>
-					<li>contact</li>
-				</ul>
-			</div>
-			<div id="f2">
-				<ul>
-					<li>home</li>
-					<li>about</li>
-					<li>gallery</li>
-					<li>contact</li>
-				</ul>
-			</div>
-			<div id="f3">
-				<ul>
-					<li> <a href="#">home</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">gallery</a></li>
-					<li><a href="#">contact</a></li>
-				</ul>
-			</div>
-			<div id="f4">
-				<ul>
-					<li> <a href="#">home</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">gallery</a></li>
-					<li><a href="#">contact</a></li>
-				</ul>
-			</div>
 		</div>
-        </div>
+                </div>
 	
 	
 	</body>
